@@ -1,9 +1,11 @@
 <!DOCTYPE html/>
+<!--Content with blank style. Written by Michael G. Crump -->
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>Mike Microscopy</title>
-	<!-- image -->
+	<link rel="shortcut icon" href="static/logo.png"/>
+	<!-- Change image to just the M -->
 </head>
 <body>
 
@@ -11,7 +13,7 @@
 
 <div class=topBlock>
 	<div class=logoregion>
-		<!-- logo image -->
+		<div class=logoimage><img src="static/logo.png" alt="Mike logo" width="25%"></div>
 	</div>
 
 
@@ -36,8 +38,12 @@
 
 
 
-<div class=headBlock>
+<div class=introBlock>
 	<h1>MIKE Microscopy</h1>
+	<div class=introImage>
+		<img src="static/introBlock.png" alt="Introduction image" width="100%"/>
+		<!-- mask for cropping -->
+	</div>
 </div>
 
 
@@ -64,43 +70,45 @@ Desk-top compatible, surface excitation imaging based on IP developed jointly by
 
 
 
-
-
-
-
-
-
-
-
 <div class= "featureBlockContainer">
-
 
 	<div class=featureBlock>
 			<h3 id=mikeBoxh> Mike Box </h3>
 			<p id=mikeBox> The MIKE microscope fits easily into your work space. </p>
+				<div class=boxImg>
+					<img src= "static/Bob.jpg" alt="MIKE box" width=50%>
+				</div>
 	</div>
-
-
 
 	<div class=featureBlock>
 		<h3 id=Pathologyh> Pathology </h3> <!-- add image -->
 		<p id=Pathology> Processing samples in a fraction of the time with slide-free, nondestructive
 	 imaging on fresh or fixed tissue. </p>
+	 		<div class=pathologyImg>
+	 			<img src="static/lungCancer.png" alt="Lung cancer pathology image" width=50%>
+	 		</div>
 	</div>
-
 
 	<div class=featureBlock>
 		<h3 id=stainingh> Staining </h3>
 		<p id=staining> MIKE staining protocols are ultraquick and compatible with standard
 	 pathology, immunohistochemistry, and DNA and RNA techniques.</p>
-	</div>
+	 		<div class=stainingImg>
+	 			<img src="static/staining.png" alt="Fast stained" width=50%>
+	 		</div>
 
+	</div>
 
 	<div class=featureBlock>
 		<h3 id=virtualHEh> Virtual H&E </h3>
 		<p id=vHE> Use our realtime color-mapping technology to get H&E like images without the day of waiting. </p>
+			<div class=museImg>
+				<img src="static/museImg.jpg" alt="MUSE Image" width=25%>
+			</div>
+			<div class=vheImg>
+				<img src="static/vheImg.jpg" alt="Virtual H&E" width=25%>
+			</div>
 	</div>
-
 
 	<div class=featureBlock>
 		<h3 id=textureh>Texture </h3>
@@ -108,6 +116,9 @@ Desk-top compatible, surface excitation imaging based on IP developed jointly by
 	understanding. Mike microscopy is used throughout the life siences to give
 	researchers a new  understanding of tissues and materials. </p>
 	</div>
+		<div class=textureImg>
+			<img src="static/vesselImg.jpg" alt="Blood vessel image" width=50%>
+		</div>
 
 </div>
 
@@ -153,13 +164,6 @@ Desk-top compatible, surface excitation imaging based on IP developed jointly by
 	</div>
 	<footer>Mikeroscopy designed by MC</footer>
 </div>
-
-
-
-
-
-
-
 
 </body>
 </html>
